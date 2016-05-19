@@ -1,7 +1,7 @@
 
 ---
 - name: get redis host
-  shell: relation-get public-address
+  shell: relation-get private-address
   register: local_host
 
 - set_fact:
